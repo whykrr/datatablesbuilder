@@ -1,0 +1,1 @@
+<a class='btn-delete' href='#{id}'>Delete</a>

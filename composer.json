@@ -1,0 +1,20 @@
+{
+    "name": "whykrr/datatables-builder",
+    "description": "Builder datatables server processing for Codeigniter 4",
+    "type": "package",
+    "require": {
+        "codeigniter4/framework": "4.0.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DatatablesBuilder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wahyu Kristiawan",
+            "email": "whykris97@gmail.com"
+        }
+    ]
+}
