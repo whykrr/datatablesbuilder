@@ -1,6 +1,6 @@
 {
     "name": "whykrr/datatables-builder",
-    "description": "Builder datatables server processing for Codeigniter 4",
+    "description": "Builder datatables serverside processing for Codeigniter 4",
     "type": "package",
     "require": {
         "codeigniter4/framework": "4.0.0"
