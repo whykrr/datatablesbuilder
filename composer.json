@@ -3,7 +3,7 @@
     "description": "Builder datatables serverside processing for Codeigniter 4",
     "type": "package",
     "require": {
-        "codeigniter4/framework": "4.0.0"
+        "codeigniter4/framework": "^4.0.0"
     },
     "license": "MIT",
     "autoload": {
