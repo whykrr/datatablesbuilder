@@ -18,9 +18,8 @@ function refreshDatatables(obj) {
 $(document).ready(function () {
     $(".datatable-builder").each(function () {
         dtObj = $(this);
+        sourceUrl = dtObj.data("dteuri");
         source = dtObj.data("dtesource");
-
-        sourceUrl = "http://dependency-ci.test/datatables/" + source;
         col_title = dtObj.data("dtcoltitle");
         col_data = dtObj.data("dtcoldata");
 
