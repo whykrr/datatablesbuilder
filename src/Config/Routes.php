@@ -5,5 +5,5 @@
  */
 $routes->group('', ['namespace' => 'DatatablesBuilder\Controllers'], function ($routes) {
     // Login/out
-    $routes->get('datatables/(:alpha)', 'Datatables::genrate/$1');
+    $routes->get('datatables/(:segment)', 'Datatables::genrate/$1');
 });
