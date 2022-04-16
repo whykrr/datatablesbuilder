@@ -11,6 +11,7 @@ if (!function_exists('loadDatatables')) {
         $config = config("datatables");
 
         // dd($config);
+        $dataUrl = base_url("datatables/$source");
         $ctitle = $config->tableSetting[$source]['col_title'];
         $cdata = $config->tableSetting[$source]['col_data'];
 
@@ -28,7 +29,7 @@ if (!function_exists('loadDatatables')) {
             }
         }
 
-        $table = "<table class=\"datatable-builder table table-striped\" id=\"dt-table-$source\" data-dtcoltitle=\"$ctitle\" data-dtcoldata=\"$cdata\" data-dtesource=\"$source\"></table>";
+        $table = "<table class=\"datatable-builder table table-striped\" id=\"dt-table-$source\" data-dtcoltitle=\"$ctitle\" data-dtcoldata=\"$cdata\" data-dtesource=\"$source\" data-dteuri=\"$dataUrl\"></table>";
 
         return $table;
     }
