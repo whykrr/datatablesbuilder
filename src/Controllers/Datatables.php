@@ -113,6 +113,10 @@ class Datatables extends Controller
 
                     //check button view
                     if ($btnView = view($btnSetting[$button], [], ['debug' => false])) {
+
+                        // replayce placeholder source
+                        $btnView = str_replace("{source}", $source, $btnView);
+
                         // set action button to builder
                         $datatables = $datatables->actionButton($btnView);
                     }

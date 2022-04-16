@@ -1,1 +1,1 @@
-<a class='btn-edit' href='#{id}'>Edit</a>
+<a class='btn-edit' href='#{id}' id='{source}'>Edit</a>
