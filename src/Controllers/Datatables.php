@@ -43,7 +43,7 @@ class Datatables extends Controller
                 return $this->respond($respond, 500);
             }
         } else {
-            $respond['message'] = "misconfiguration souce data $source";
+            $respond['message'] = "misconfiguration source data $source";
             return $this->respond($respond, 500);
         }
 
